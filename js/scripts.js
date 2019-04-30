@@ -1,10 +1,6 @@
-
-
 document.querySelector(".navbar-toggler").addEventListener("click", function(e){
   document.querySelector("#mobileMenu").classList.toggle("show");
  });
-
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
